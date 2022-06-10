@@ -3,118 +3,58 @@
 
 <head>
   <meta charset="utf-8">
-  <meta charset="description" content="This is Amir's Resume 2022">
-  <meta charset="keywords" content="Amir, Resume, CV, intern, Personal Site">
-  <meta charset="authoer" content="Amir">
-  <title>Amir's Personal Site</title>
+  <title>Contact Me</title>
 </head>
 
 <body>
-  <table cellspacing="20">
-    <td><a href="images/formal picture.jpg" target="_blank"><img src="images/formal picture.jpg" alt="Amir Formal Picture" width="200" height="250"></a></td>
-    <td><h1>MUHAMMAD AMIR BIN MOHD ZAINUDDIN</h1><br>
-      Age:<b>23</b><br />
-        Citizenship:<i>Malaysia</i>
-    </td>
-  </table>
-
-  <h3>PROFILE</h3>
-  <p>
-    <strong>Bachelor of science (Honors) Physics</strong> student seeking an internship position related to my field where my knowledge, skills and potential could be use and enhance.
-  </p>
-  <h3>ASPIRATION FOR LIFE</h3>
-  <p>
-    My Aspiration is to learn more about <em>programming</em> skill and knowledge to be applied further in my career life.
-  </p>
-
-  <h3>CONTACT</h3>
+  <h2>CONTACT</h2>
   <p>LINKEDIN<br />
     <a href="linkedin.com/in/muhammad-amir-mohd-zainuddin-2b608b241">linkedin.com/in/muhammad-amir-mohd-zainuddin-2b608b241</a> <br> <br>
     EMAIL<br>
     <a href="mailto:muhdamir.zainuddin99@gmail.com">muhdamir.zainuddin99@gmail.com</a> <br> <br>
   </p>
-
-  <h3>INTERESTS</h3>
-  <ol type="i">
-    <li>Reading novel</li>
-    <li>Learning <a href="Study source.html">Web development,</a></li>
-    <li>Learning <a href="Study source.html">Data Science,</a></li>
-    <li>Learning <a href="Study source.html">stock trading and investment,</a></li>
-    <li>Watching Movies</li>
-    <li>Gaming</li>
-  </ol>
-
-  Programming, Science, Travelling,
-  Movies, Gaming
-
-  <h3>REFERENCE</h3>
-  <p>Azliana Binti Ramli <br>
-    Lecturer & Supervisor <br>
-    +06 12-466 6817 <br>
-    azliana@uitm.edu.my</p>
-
-  <hr size="3" noshade>
-
-  <h3>ACADEMIC QUALIFICATION</h3>
-  <table border="1">
-    <thead>
-      <tr>
-        <th>Year</th>
-        <th>Education</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2017-2019</td>
-        <td><a href="https://uitm.edu.my/index.php/en/" target="_blank">UNIVERSITI TEKNOLOGI MARA (UiTM)</a> <br>
-          Graduate with CGPA 3.83 <br>
-          Awards: Vice Chancellor Award (5 Dean’s list)</td>
-      </tr>
-      <tr>
-        <td>2020-2023</td>
-        <td><a href="https://uitm.edu.my/index.php/en/" target="_blank">UNIVERSITI TEKNOLOGY MARA (UiTM)</a> <br>
-        CGPA: 3.64 <br>
-        Awards: 3 Dean’s list</td>
-      </tr>
-      <tr>
-        <td>2019</td>
-        <td>Band 4 of Malaysian University English Test (MUET)</td>
-      </tr>
-    </tbody>
-    </tr>
-    <tfoot>
-
-    </tfoot>
-  </table>
-
-  <hr size="3" noshade>
-
-  <h3>PROFESSIONAL EXPERIENCE</h3>
-  <ul type="square">
-    <li>Participate in Science Innovation Competition (SIC 2019)</li>
-    <li>Participate in Entrepreneurship talk of Consumer Trend Canvas:
-      “Technology-driven innovation pursuit of customer centricity” in 2021</li>
-    <li>Participate in Business Innovation Competition & Exhibition 2019</li>
-  </ul>
-
-  <hr size="3" noshade>
-
-  <h3>KEY SKILLS AND CHARACTERISTICS</h3>
-  <p><b>LANGUAGE</b></p>
-  <ul>
-    <li>English</li>
-    <li>Bahasa Malaysia</li>
-  </ul>
-  <p><b>COMPUTER SKILLS</b></p>
-  <ul>
-    <li>Microsoft Office</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Python (basic)</li>
-    <li>C++ (basic)</li>
-  </ul>
-
-  <hr size="3" noshade>
 </body>
+
+<h3>Fill in the form to contact me</h3>
+<table>
+  <form class="" action="index.html" method="post">
+    <tr>
+      <td><label for="fname">First Name: </label></td>
+      <td><input type="text" name="fname" value="Ahmad"></td>
+    </tr>
+    <tr>
+      <td><label for="lname">Last Name: </label></td>
+      <td><input type="text" name="lname" value="Kamal"></td>
+    </tr>
+    <tr>
+      <td>
+        <label for="age">Age: </label>
+      </td>
+      <td><input type="number" name="age" value="20" min="1" max="100"></td>
+    </tr>
+    <tr>
+      <td><label for="gender">Gender: </label></td>
+      <td><input type="radio" id="genderM" name="gender" value="Male">
+        <label for="genderM">Male</label>
+      </td>
+      <td><input type="radio" id="genderF" name="gender" value="Female">
+        <label for="genderF">Female</label>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="Picture">Your Profile Picture: </label></td>
+      <td><input type="file" name="Picture" value=""></td>
+    </tr>
+    <tr>
+      <td><label for="apdate">Appointment Date: </label></td>
+      <td><input type="date" name="apdate" value=""></td>
+    </tr>
+    <tr>
+      <td>
+        <input type="submit" name="submit" value="Submit">
+      </td>
+    </tr>
+  </form>
+</table>
 
 </html>
